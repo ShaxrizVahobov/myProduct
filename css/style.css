@@ -1230,7 +1230,7 @@ nav ul li:nth-child(6) a{
     left: 50%;
     transform: translate(-50%);
   }
-  .navbar nav ul{
+  header .navbar nav ul{
     display: none;
   }
 }
