@@ -859,7 +859,6 @@ nav ul li:nth-child(6) a{
     transform: scale(.8);
   }
   .navbar nav {
-    right: -40px;
     display: none;
   }
   .head-center {
@@ -1103,9 +1102,6 @@ nav ul li:nth-child(6) a{
   .menu-button {
     top: -100px;
   }
-  .navbar nav ul {
-    display: none;
-  }
   
 }
 
@@ -1239,5 +1235,11 @@ nav ul li:nth-child(6) a{
     top: 50px;
     left: 50%;
     transform: translate(-50%);
+  }
+}
+
+@media only screen and (max-width: 36em) {
+  .navbar nav ul {
+    display: none;
   }
 }
