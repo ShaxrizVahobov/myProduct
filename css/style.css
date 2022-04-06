@@ -764,6 +764,12 @@ nav ul li:nth-child(6) a{
   top: 30px;
 }
 
+.get-card-title, .get-card-img {
+  position: relative;
+  left: 280px;
+  top: 0;
+}
+
 /* ended get card */
 /* ************************************************ */
 /* started footer */
