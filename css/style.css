@@ -1065,34 +1065,6 @@ nav ul li:nth-child(6) a{
     left: 50%;
     transform: translate(-50%);
   }
-  .getthis {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 1000px;
-  }
-  .get-card {
-    width: 500px;
-    height: 800px;
-    position: relative;
-    top: 50px;
-    left: 50%;
-    transform: translate(-50%);
-    flex-wrap: wrap;
-  }
-  .get-card-title {
-    text-align: center;
-  }
-  .get-card-title p {
-    font-size: 36px;
-    position: relative;
-    top: 0;
-  }
-  .get-card-img img {
-    position: relative;
-    top: 50px;
-    left: -50px;
-  }
   .footer {
     text-align: center;
     height: 950px;
@@ -1129,6 +1101,9 @@ nav ul li:nth-child(6) a{
 
 @media only screen and (max-width: 48em) {
 
+  .navbar nav {
+    display: none;
+  }
   .navbar .logo {
     transform: scale(1.2);
     right: -100px;
@@ -1225,5 +1200,35 @@ nav ul li:nth-child(6) a{
   .tables {
     left: 100%;
     transform: translate(-100%);
+  }
+  
+  .getthis {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 1000px;
+  }
+  .get-card {
+    width: 500px;
+    height: 800px;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    flex-wrap: wrap;
+  }
+  .get-card-title {
+    text-align: center;
+  }
+  .get-card-title p {
+    font-size: 36px;
+    position: relative;
+    top: 0;
+  }
+  .get-card-img img {
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
   }
 }
