@@ -1103,14 +1103,14 @@ nav ul li:nth-child(6) a{
   .menu-button {
     top: -100px;
   }
+  .navbar nav ul {
+    display: none;
+  }
   
 }
 
 @media only screen and (max-width: 48em) {
   .navbar nav ul{
-    display: none;
-  }
-  .navbar ul li a{
     display: none;
   }
   .navbar .logo {
