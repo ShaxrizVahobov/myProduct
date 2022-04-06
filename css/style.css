@@ -860,6 +860,7 @@ nav ul li:nth-child(6) a{
   }
   .navbar nav {
     right: -40px;
+    display: none;
   }
   .head-center {
     display: flex;
