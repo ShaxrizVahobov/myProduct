@@ -1110,7 +1110,7 @@ nav ul li:nth-child(6) a{
   .navbar nav ul{
     display: none;
   }
-  .navbar ul li {
+  .navbar ul li a{
     display: none;
   }
   .navbar .logo {
