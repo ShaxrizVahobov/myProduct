@@ -1103,9 +1103,6 @@ nav ul li:nth-child(6) a{
 }
 
 @media only screen and (max-width: 48em) {
-  .navbar nav ul{
-    display: none;
-  }
   .navbar .logo {
     transform: scale(1.2);
     right: -100px;
@@ -1125,7 +1122,7 @@ nav ul li:nth-child(6) a{
   }
   .navbar {
     position: fixed;
-    width: 100vw;
+    width: 48em;
     height: 80px;
     background-color: #fff;
     z-index: 10;
@@ -1233,10 +1230,7 @@ nav ul li:nth-child(6) a{
     left: 50%;
     transform: translate(-50%);
   }
-}
-
-@media only screen and (max-width: 36em) {
-  .navbar nav ul {
+  .navbar nav ul{
     display: none;
   }
 }
