@@ -1103,7 +1103,7 @@ nav ul li:nth-child(6) a{
 }
 
 @media only screen and (max-width: 48em) {
-  .navbar nav {
+  .navbar nav ul{
     display: none;
   }
   .navbar .logo {
