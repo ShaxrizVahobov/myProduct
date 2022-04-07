@@ -1178,7 +1178,7 @@ nav ul li:nth-child(6) a{
     position: relative;
     top: 50px;
     left: -50%;
-    transform: translate(50%, 0);
+    transform: translate(35%, 0);
   }
   .navbar nav{
     display: none;
